@@ -30,6 +30,7 @@ connection.on('error', function(err) {
   });
 }
 
+handleDisconnect()
 
 // Export connection for our ORM to use.
 module.exports = connection;
