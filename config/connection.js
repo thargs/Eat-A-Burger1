@@ -9,7 +9,7 @@ var connection= mysql.createConnection({
     });
 
 
-// Make connection.
+////////////////////////////////////////////// Make connection
 function handleDisconnect(){
 connection.connect(function(err) {
     if (err) {
