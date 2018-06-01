@@ -11,8 +11,7 @@ var connection= mysql.createConnection({
 
 ////////////////////////////////////////////// Make connection
 function handleDisconnect(){
-connection.con
-nect(function(err) {
+connection.connect(function(err) {
     if (err) {
         console.error("error connecting: " + err.stack);
         setTimeout(handleDisconnect, 2000);
