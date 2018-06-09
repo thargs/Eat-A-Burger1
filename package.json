@@ -2,7 +2,9 @@
   "name": "eat-da-buger",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "engines":{
+    "node": "9.x.x"
+  },
   "scripts": {
     "start": "node server.js"
   },
