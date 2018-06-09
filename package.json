@@ -2,7 +2,7 @@
   "name": "eat-da-buger",
   "version": "1.0.0",
   "description": "",
-  "engines":{
+  "engines": {
     "node": "9.x.x"
   },
   "scripts": {
